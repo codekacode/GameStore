@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+
+h1{
+    font-family: 'Monoton', cursive;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3em;
+}
+
+body{
+    background: url(../images/mario-bros.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 4cm;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 50px; 
+    align-content: space-around;   
+}
+
+.main-images{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.main-info{
+    
+    margin-left: 20px;
+    width: 300px;
+    font-size: small;
+}
+
+.btn{
+    max-height: 2.5em;
+    border: none;
+    padding: .75em 1,25em;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #B90084 ;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    clear: both;
+}
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.testimonials{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em 0;
+    font-size: 1.25em;
+    background-color:#f7f7f7;
+    
+    
+}
+
+.testimonial-text{
+    float: left;
+    width: 75%;
+    padding-left: 1em;
+
+}
+
+.testimonial{
+    margin: .75em;
+    padding: 1em;
+}
+
+.testimonial-image{
+    padding: 20px;
+    display: flex;
+    align-self: flex-end;
+    
+
+    
+}
+
+
+.nav{
+    margin: auto;
+    width: 800px;
+    height: 80px;
+    background-color: teal;
+    padding: 0;
+    
+    
+}
+
+.nav-option{
+    width: 200px;
+    height: 80px;
+    float: left;
+    list-style: none;
+    font-size: .8em;
+    text-align: center;
+    transition: height .4s , padding-top .4s;
+       
+}
+
+
+.nav-option:hover{
+    height: 90px;
+    padding-top: .7em;
+    
+    
+}
+.nav-option:hover .icon{
+    box-shadow: 0px 0px 0px 0px rgba(255,255,255, 0.7);
+}
+
+.uno{
+    background-color: #DDE663;
+    
+}
+.dos{
+    background-color: #E01180;
+    
+}
+.tres{
+    background-color: #D6392A;
+    
+}
+.cuatro{
+    background-color: #B5102B;
+    
+}
+
+.icon{
+    display: block;
+    margin: 5px auto;
+    background-color:rgba(255,255,255 , .20);
+    width: 40px;
+    padding: 4px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px rgba(255,255,255, 0);
+    transition: box-shadow .6s ;
+}
+
+
+
+.product-version-title{
+    margin-top: 20px;
+    background: rgba(23,235,196,0.2);
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.container2{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
