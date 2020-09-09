@@ -56,10 +56,13 @@ body{
     background-color: #B90084 ;
 }
 
-.container{
+.description{
     max-width: 800px;
     margin: 0 auto;
     clear: both;
+    font-size: 0.7em;
+    padding: .75em .5em 1.5em .5em;
+
 }
 .container::after{
     content: "";
@@ -70,10 +73,10 @@ body{
 .testimonials{
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 800px;
     margin: 0 auto;
     padding: 1em 0;
-    font-size: 1.25em;
+    font-size: 1.1em;
     background-color:#f7f7f7;
     
     
@@ -96,10 +99,7 @@ body{
     display: flex;
     align-self: flex-end;
     
-
-    
 }
-
 
 .nav{
     margin: auto;
@@ -107,8 +107,7 @@ body{
     height: 80px;
     background-color: teal;
     padding: 0;
-    
-    
+        
 }
 
 .nav-option{
@@ -161,7 +160,10 @@ body{
     transition: box-shadow .6s ;
 }
 
-
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
 
 .product-version-title{
     margin-top: 20px;
@@ -176,5 +178,82 @@ body{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    
+}
+
+.product-versions{
+    padding: 1em 0;
+    width: 800px;
+    margin: 0 auto;
 
 }
+
+.product-version{
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+
+.version-title{
+    padding: .75em 0;
+    font-size: 1.2em;
+}
+
+.version-price{
+    padding: .75em 0;
+    font-size: 2em;
+    margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
+    
+}
+
+.version-item{
+    width: 100%;
+    padding: .5em 0;
+    font-size: 0.8em;
+}
+
+.version-item:last-child{
+    border-bottom: 0;
+}
+
+.btn-plain{
+    padding: .5em;
+    border-radius: 6px;
+}
+
+.social-main{
+    width: 200px;
+    margin: 0 auto;
+}
+.social{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    padding: 1em 0;
+    text-align: center;
+   
+
+}
+
+.footer-links{
+    margin-bottom: .7em;
+    font-size: 0.9em;
+}
+
+.footer-link{
+    margin: 0 .5em;
+    text-decoration: none;
+    color: black;
+}
+
+.copyright{
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+
